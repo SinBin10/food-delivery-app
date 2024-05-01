@@ -1,8 +1,11 @@
-import './App.css';
+import "./App.css";
+import Home from "./screens/Home.js";
 
 function App() {
   return (
-    <div className='fs-1'></div>
+    <>
+      <div className="fs-1"><Home /></div>
+    </>
   );
 }
 
